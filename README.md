@@ -2,6 +2,8 @@
 Version WEB proyecto MYtinerary.
 # Trabajo realizado
 Una app desarrollada en cinco semanas, realizando dailies diarias para poder resolver los diferentes inconvenientes ya que fue un challenge para el bootcamp cursado en MindHub.
+Para poder ver el trabajo final realizado puedes ingresar a: https://mytinerary-parra.herokuapp.com/
+
 # Comenzando  🚀
 ```
 # Instalar dependencias para el cliente

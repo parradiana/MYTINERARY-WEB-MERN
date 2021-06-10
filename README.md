@@ -11,7 +11,7 @@ Para poder ver el trabajo final realizado puedes ingresar a: https://mytinerary-
 npm install
 
 # Correr la app
-expo start
+npm start
 
 # Construido con 🛠️
 - Node.js - Entorno de ejecución para JavaScript

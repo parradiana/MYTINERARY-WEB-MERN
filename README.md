@@ -20,8 +20,6 @@ npm start
 - Mongoose - Modelado de objetos (Object Document Mapper (ODM))
 - Bcrypt - Librería para hashear contraseñas
 - Jsonwebtoken
-- Expo - Framework y plataforma para aplicaciones universales hechas en React
-- React Native - Framework para construir aplicaciones nativas
 - Redux - Utilizado para trabajar con un estado global
 - CSS3 - Utilizado para dar estilos
 

@@ -1,0 +1,1714 @@
+:root{
+    --primary-color: #ff9566;
+}
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+video{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    visibility: visible;
+    z-index: -10;
+}
+.bSWeAW{
+    color: var(--primary-color);
+}
+.bSWeAW:hover:enabled, .bSWeAW:focus:enabled{
+    background-color: var(--primary-color) !important;
+}
+.cetQhm{
+    background-color: var(--primary-color) !important;
+    box-shadow: none !important;
+}
+.titulo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   margin-top: 5vh;
+}
+.titulo h1{
+    font-size: 5em;
+}
+.frase{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    margin-top: 1vh;
+}
+.frase p{
+    margin: 0;
+}
+.logo{
+    width: 20%;
+}
+.contenedorSlogan{
+    height: 100vh;
+}
+.navegadores{
+    color: white;
+    margin-left: 5vw;
+}
+.navegadores:hover{
+    color: white;
+}
+.contenedorHero{
+    z-index: -100;
+}
+.contenedorNav{
+    display: flex;
+    justify-content: space-between;
+}
+.contenedorHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoUsuario{
+    margin-top: 1vh;
+    background-position: center;
+    width: 4em;
+    height: 4em;
+    background-size: cover;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.contenedorLogoUsuario{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.contenedorLogoUsuario svg{
+    font-size: 20px;
+}
+.navegadores:hover{
+    text-decoration: underline;
+}
+.titulo2{
+    background-color: white;
+    margin-top: 10vh;
+}
+.portaFoto{
+    width: 30vw;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 1vh 2vw;
+    border-radius: 5px;
+    transition: all 0.3s ease; 
+    display: flex;
+    align-items: center;
+}
+.rec-carousel-item:focus {
+    outline: none !important;
+    box-shadow: inset 0 0 1px 1px lightgrey !important;
+}
+.portaFoto:hover{
+    transform: scale(1.03);
+}
+.contenedorCarrousel{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.contenedorCarrousel:active {
+    outline: none;
+    box-shadow: none;
+  }
+.contenedorCarrousel:focus {
+    outline: none;
+    box-shadow: none;
+  }
+.gNESUr{
+    padding: 10vh 2vw;
+}
+.contenedorTituloCarrousel{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.tituloCarrousel{
+    background: linear-gradient(90deg, #ff9566, white);
+    text-align: center;
+    width: 50%;
+    font-weight: bold;
+    border-radius: 30px;
+    color: white;
+    margin-top: 10vh;
+}
+.colorTituloCarrousel{
+    color: var(--primary-color);
+}
+.nombresCiudades{
+    text-align: center;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 47%);
+    font-size: 2em;
+    font-weight: bold;
+
+}
+.callToAction{
+    height: 70vh;
+}
+
+.subtitulos{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 3vh 0;
+    text-align: center;
+    width: 100%;
+}
+.elegirnos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logosCallToAction{
+    width: 20%;
+}
+.textospan{
+    text-align: center;
+    width: 80%;
+    height: 12vh;
+}
+.contenedorBoton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2em;
+}
+.contenedorBoton p{
+    margin-left: 1vw;
+    margin-top: 2vh;
+}
+.botonCallToAction{
+    color: white;
+    font-size: 20px;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.iconos{
+   margin-right: 6vw;
+   font-size: 2em;
+   cursor: pointer;  
+   padding: 2vh 1vw;
+}
+.contenedorImagenCities{
+    width: 100%;
+}
+.imagenCities{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 70vh; 
+    border-bottom: var(--primary-color) 32px solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.contenedorTituloDiscover{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 90vh;
+}
+.tituloDiscover{
+    font-size: 6rem;
+    color:white;
+}
+.colorWorld{
+    color: var(--primary-color);
+}
+.contenedorCities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headerCities{
+    background-color: var(--primary-color) !important;
+}
+.contenedorEspecialidades{
+    display: flex;
+    justify-content: space-around;
+}
+/*ESTILOS INPUT FILTRO*/
+.contenedorLogoOpacity{
+    /* width: 53vw; */
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+.contenedorLogoOpacity h1{
+    color: var(--primary-color);
+    font-size: 3em;
+}
+.nput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.inputTexto{
+    margin-top: 3vh;
+    text-align: center;
+    width: 40vw;
+    border: var(--primary-color) 3px solid;
+    border-radius: 10px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+.inputTexto:focus{
+    outline: none;
+}
+/*ESTILOS DE GALERIA*/
+.galleryContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 150px;
+    grid-gap: 10px;
+    margin-bottom: 25vh;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+}
+.nombreCiudad { 
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+div a:hover{
+    text-decoration: none;
+}
+.descripcionCiudad{
+    color: white;
+}
+.infoContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.galleryItem{
+    padding: 0;
+}
+.galleryImg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(31, 31, 31, 0.3);
+    -webkit-transition: opacity 0.3s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorBotonRegreso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.galleryImg:hover .info{
+    opacity: 1;
+}
+.galleryItem:nth-child(1){
+    grid-column-start: span 4;
+    grid-row-start: span 2 ;
+}
+.galleryItem:nth-child(2){
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.galleryItem:nth-child(3){
+    grid-column-start: span 2;
+    grid-row-start: span 2;
+}
+.galleryItem:nth-child(4){
+    grid-row-start: span 4;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(5){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(6){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(7){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(8){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(9){
+    grid-row-start: span 2;
+    grid-column-start: span 4;
+}
+.galleryItem:nth-child(10){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(11){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(12){
+    grid-row-start: span 4;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(13){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(14){
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+.galleryItem:nth-child(15){
+    grid-row-start: span 2;
+    grid-column-start: span 4;
+}
+.contenedorNotResults{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40vh;
+}
+.imgNotResult{
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.contenedorParrafos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorParrafos p{
+    color: var(--primary-color);
+    font-size: 2em;
+    font-weight: bold;
+}
+.imagenMundo{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 30vh;
+}
+.imagenItineraries{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    border-bottom: var(--primary-color) 32px solid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.colorTitulo{
+    color: var(--primary-color);
+}
+.tituloItineraries{
+    margin-top: 27vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorBanderaPais{
+    display: flex;
+    align-items: center;
+}
+.imagenMonedas{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 8vw;
+    height: 8vh;
+    
+}
+.cajaGrandeAgregados{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenedorAgregados{
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    align-items: center;
+    margin-bottom: 2vh;
+    width: 90%;
+}
+.headerItineraries a:hover{
+    color: var(--primary-color) ;
+}
+.imagenIdiomas{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 7vw;
+    height: 8vh;
+}
+.contenedorIdiomas, .contenedorMonedas{
+    display: flex;
+    align-items: center;
+    width: 20vw;
+}
+.contenedorIdiomas{
+    justify-content: center;
+}
+.idiomas, .monedas{
+    color: var(--primary-color);
+    font-size: 17px;
+}
+.bandera{
+    width: 10vw;
+    height: 11vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.pais{
+    color: var(--primary-color);
+    font-size: 2em;
+}
+.tituloItineraries h1{
+    color: white;
+    font-size: 3.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.473);
+}
+.contenedorItinerarios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorInfoItinerario{
+    width: 90%;
+    border: 1.5px solid var(--primary-color); 
+    border-radius: 30px;
+    padding: 3vh 2vw;
+    margin-bottom: 3vh;
+    color: var(--primary-color);   
+}
+.contenedorInfoItinerario:hover{
+    box-shadow: 2px 2px 3px 2px rgb(140 122 114 / 0.22)
+}
+.itinerarioFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.fotoItinerario{
+    width: 22vw ;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+.contenidoInternoItinerario{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.descripcionItinerario{
+    font-size: 1.3em;
+}
+.tituloItinerario{
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 30px;
+    font-size: 2.5em;
+    padding: 1vh 2vw;
+    margin-top: 2vh; 
+}
+.autorItinerario{
+    display: flex;
+    align-items: center;
+}
+.authorName{
+    margin-left: 2vw;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.hashtags{
+    display: flex;
+}
+.hashtags p{
+    margin-right: 2vw;
+}
+.contenedorBotonViewMore{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonViewMore{
+    background-color: var(--primary-color);
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    margin-left: 3vw ;
+    transition: all 0.4s ease;
+}
+.mensajeWelcome{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.mensajeWelcome p{
+    margin-top: 3vh;
+    margin-right: 1vw;
+}
+.dropdown-menu{
+    color: white !important;
+    min-width: 20vw !important;
+    background-color: var(--primary-color) !important;
+    z-index: 1 !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px !important;
+    border-radius: 10px !important;
+    border: none !important;
+    float: none !important;
+    text-align: center !important;
+}
+.ventanaUserInfo{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.dropdown-toggle, .btn, .btn-primary{
+    background-color: transparent !important;
+    border-color: transparent !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+    margin-right: 15px !important;
+}
+.btn-primary:focus {
+    box-shadow: none !important;
+} 
+.btn{
+    padding: 0;
+}
+.logoUsuarioVentana{
+    margin-top: 2vh !important;
+    background-position: center !important;
+    width: 4em !important;
+    height: 4em !important;
+    background-size: cover !important;
+    border-radius: 100% !important;
+}
+.ventanaUserInfo p{
+   border-bottom: 1px solid white !important;
+   text-align: center !important;
+   margin: 1vh !important;
+   width: 80% !important;
+}
+.ventanaUserInfo small{
+    margin-bottom: 4vh;
+}
+.logOutVentana{
+    background-color: white;
+    color: var(--primary-color);
+    padding: 2vh 2vw;
+    border-radius: 10px;
+}
+.botonViewMore:hover{
+    transform: scale(1.03);
+}
+.botonViewMore:focus{
+    outline: none;
+}
+.contenedorUnderConstruction{
+    text-align: center;
+}    
+.iconosFlex{
+    display: flex;
+    align-items: center;
+}
+.contenedorHeroItinerarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.contenedorHeroItinerarios h1{
+    color: var(--primary-color);
+    font-weight: bold;
+}
+.avionItineraries{
+    width: 10vw;
+    height: 20vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.iconoBilletes{
+    color: rgb(8, 184, 8);
+    font-size: 1.6em;
+    margin-right: 1vw;
+}
+.iconoReloj{
+    font-size: 1.5em;  
+}
+.contenedorIconoLikes{
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.contenedorIconoLikes p{
+    margin: 0 !important;
+    margin-left: 0.5vw !important;
+    font-size: 1.2em;
+}
+.iconoCorazon{
+    color: red;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+.tituloItinerarioIcono{
+    display: flex;
+    align-items: center;
+}
+.contenedorBotones{
+    display: flex;
+    justify-content: center;
+    margin: 10vh 0;
+}
+.contenedorItinerariosNotFound{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.itinerariosNotFound{
+    width: 40vw;
+    background-size: contain;
+    height: 40vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.fraseItinerariosNotFound{
+    color: var(--primary-color);
+    font-size: 2.3em;
+    text-align: center;
+}
+.authorImage{
+    min-width: 8vw;
+    height: 16vh;
+    border-radius: 50%;
+}
+.botonRegreso{
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid var(--primary-color);
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+    margin-left: 3vw ;
+}
+.botonRegreso:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.botonRegresoError{
+    background-color: white;
+    font-size: 20px;
+    border: 1px solid var(--primary-color);
+    padding: 2vh 3vw;
+    border-radius: 10px;
+    cursor: pointer;
+    color: var(--primary-color);
+}
+.botonRegresoError:hover{
+    background-color: var(--primary-color);
+    color: white;
+}
+.imagen404{
+    width: 100%;
+    height: 60vh ;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contenedorNav{
+    display: flex;
+    flex-direction: column;
+}
+footer a{
+    color: white;
+    font-size: 20px;
+} 
+footer a:hover{
+    color: white;   
+}
+footer a.active{
+    color: white;
+}
+.imgFooter{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 42vh;
+}
+.contenedorFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3vh 0;
+    height: 30vh;   
+}
+.AllRightsReserved{
+    text-align: center;
+    color: white;
+    padding: 2vh 0;
+}
+div.callToAction h1{
+    text-align: center;
+    padding-top: 5rem;
+    margin-bottom: 5rem;
+}
+.h1404,.pNotFound {
+    color: var(--primary-color);
+}
+.h1404{
+    font-size: 3em;
+}
+.pNotFound{
+    font-size: 1.5em;
+}
+.botonA{
+    margin: 0 !important;
+}
+.contenedorNotFound{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedorMapeo{
+    width: 100%;
+}
+.preloader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin:-30px 0 0 -30px;
+    -webkit-animation:spin .7s linear infinite;
+    -moz-animation:spin .7s linear infinite;
+    animation:spin .7s linear infinite;
+}
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.preloader img {
+  width: 100%;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+.headerNotFound{
+    background-color: var(--primary-color);
+}
+.imageSignUpLogIn{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 134vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.imageSignUpLogIn:before{
+    content:"";
+    width:100%;
+    height: 100%;
+    background-color: rgb(255, 148, 102);
+    position: absolute;
+    opacity: 0.5; 
+}
+.imageSignUpLogIn *{
+    position: relative;
+}
+.contenedorLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+.contenedorLogo h2{
+    color: white;
+    font-size: 4.5em;
+    font-weight: bold;
+    margin: 0;
+}
+.bGoogle{
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: none;
+    display: inline-flex; 
+    align-items: center; 
+    color: var(--primary-color); 
+    font-weight: 450;
+    padding: 2vh 2vw;
+    font-size: 15px;
+}
+.bGoogle svg{
+    margin-right: 1vw;
+    font-size: 2em;
+}
+.contenedorLinksLogueado{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.linksVentana{
+    background-color: white;
+    color: var(--primary-color);
+    padding: 2vh 2vw;
+    border-radius: 10px;
+    width: 2vw;
+    /* margin-left: 2vw; */
+}
+.dropdown-toggle::after{
+    margin-right: 1em;
+}
+.fraseForm{
+    color: white;
+    font-size: 1.4em;
+    margin: 0;
+}
+.fraseFormLogIn{
+    color: white;
+    font-size: 1.2em;
+    width: 35vw;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+.contenedorInfoLogIn{
+    margin-top: 8vh;
+}
+.buttonGoogle{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    color: white;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+.linkLogIn{
+    color: white;
+    text-decoration: underline;
+}
+.linkLogIn:hover{
+    color: white;
+    text-decoration: underline;
+}
+.contenedorBotonForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedorBotonForm:focus{
+    outline: none;
+}
+.contenedorBotonForm p{
+    color: white;
+}
+.contenedorinput{
+    background-color: rgba(255, 255, 255, 0.397) ;
+    border-radius: 50px;
+    margin-bottom: 1vh;
+    border: none;
+    padding: 2vh 2vw;
+    display: flex;
+    align-items: center;
+}
+input, select{
+    background-color: transparent; 
+    border: none;
+    width: 90%;
+}
+select{
+    width: 87.5%;
+}
+input, select:focus{
+    outline: none;
+}
+.contenedorSignUp{
+    display: flex;
+    align-items: center;
+}
+.botonForm{
+    width: 17vw;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 30px;
+    padding: 2vh 2vw;
+    color: white;
+    font-size: 1.5em;
+}
+.contenedorformularios{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.contenedorformularioLogIn{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+.inputIcons{
+    font-size: 1.2em;
+    color: white;
+    position: relative;
+    margin-right: 1vw;
+}
+.formularios{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.divEye{
+    cursor: pointer;
+}
+.borderRed{
+    border: 1px solid rgb(238, 4, 4)
+}
+.errors{
+    color:white;
+    margin-left: 2vw;
+    display: flex;
+    align-items: center;
+    font-weight: 450;
+    font-size: 14px;
+    /* text-shadow: 1px 1px 2px rgb(0 0 0 / 47%) */
+}
+
+.buttonOption{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-left: 2vw;
+}
+.imageActivity{
+    width: 40vw;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.contenedorActCom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+.carrouselActivities{
+    width: 40vw;
+}
+.carousel-inner{
+    border-radius: 10px !important;
+}
+.comments{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    margin-bottom: 2vh;
+    overflow-y: auto;
+    margin-left: 1vw;
+    z-index: -1;
+}
+.noComments{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+.emoji-picker-react{
+    position: absolute !important;
+    left: 10vw;
+    bottom: 1vh;
+    width: 80% !important;
+}
+.contenedorEmojis{
+    position: relative;
+    width: 100%;
+}
+.iconoEmoji{
+    z-index: 1;
+    font-size: 2em;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 1vw;
+}
+.comments::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.comments::-webkit-scrollbar:vertical {
+    width:13px;
+}
+
+.comments::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.comments::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.comments::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 20px;
+    border: 1px solid #f1f2f3;
+}
+
+.comments::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+.caption{
+    display: flex;
+    justify-content: center;
+}
+.caption p{
+    background-color: var(--primary-color);
+    padding: 1vh 2vw;
+    border-radius: 30px;
+    width: 20vw;
+}
+.tituloActivities{
+    font-weight: 500;
+    font-size: 2.5em;
+}
+.tituloSuperp{
+    font-size: 3em;
+    opacity: 0.2;
+    font-weight: bold;
+    z-index: -1;
+}
+.imageAuthorComment{
+    border-radius: 50%;
+    max-width: 4vw ;
+    min-height: 5.50vh;
+    margin-right: 1vw;
+}
+.contenedorInputEdit{
+    background-color: #e9e9eb;
+    border: 2px solid var(--primary-color);
+    color: black;
+    border-radius: 20px;
+    margin-left: 3vw;
+    padding: 1vh 1vw 1vh 1vw;
+    display: flex;
+    align-items: center;
+}
+.iconSendEdit{
+    color: var(--primary-color);
+    cursor: pointer;
+}
+.contenedorButtonsOptions{
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+.nameComment{
+    background-color: #e9e9eb;
+    border-radius: 20px;
+    margin-left: 3vw;
+    display: flex;
+    align-items: center;
+}
+.nameComment p{
+    color: black;
+    text-align: start;
+    margin: 0 0 0 1vw;
+    padding: 1vh 3vw 1vh 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedorInfo{
+    display: flex;
+    flex-direction: column;
+}
+.contenedorComments{
+    border-radius: 10px;
+    border: 1px solid var(--primary-color);
+    width: 50%;
+}
+.contenedorComment{
+    display: flex;
+    margin-bottom: 3vh;
+}
+.datosUserComment{
+    display: flex;
+    align-items: center;
+}
+.datosUserComment p{
+    margin: 0;
+    font-weight: 450;
+}
+.date{
+    color: rgba(128, 128, 128, 0.623);
+    font-weight: normal !important;
+    font-size: 14px;
+}
+.tituloComments{
+    font-size: 2em;
+}
+.tituloComments span{
+    color: rgba(128, 128, 128, 0.623);
+    font-size: 20px !important;
+}
+.datosUserComment div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    justify-content: space-between;
+    width: 80%;
+}
+.buttonSend{
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 2vh 3vw;
+    border-radius: 10px;
+}
+.iconSend{
+    font-size: 2em;
+    cursor: pointer;
+}
+.contenedorInputComment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    border: 2px solid var(--primary-color);
+    margin: 0 auto;
+}
+.inputComment{
+    padding: 1vh 2vw;
+}
+.borderClass{
+    background-color: var(--primary-color);
+    height: 5px;
+    width: 15vw;
+    border-radius: 20px;
+}
+.contenedorHeroActivities{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 0;
+}
+/*MEDIA QUERIES*/
+@media (max-width: 630px){
+    .contenedorEspecialidades{
+        flex-direction: column;       
+    }
+    .navbar-collapse {
+    flex-grow: 1;
+    align-items: center;
+    position: absolute !important;
+    top: 55px !important;
+    width: 100vw !important;
+    background-color: var(--primary-color);
+    left: 0px;
+    border-radius: 10px;
+    padding: 2vh 0;
+    z-index: 1;
+    }
+    a{
+        color: white !important;
+        text-align: center;
+        padding: 1vh 0;
+    }
+    .titulo{
+        margin-top: 0;
+    }
+    .titulo h1{
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .frase{
+        font-size: 13.5px;
+    }
+    .contenedorBoton p{
+        color: var(--primary-color);
+        font-size: 25px;
+    }
+    .contenedorBoton{
+        margin-top: 17.5vh;
+    } 
+    .monedas, .idiomas{
+        font-size: 12px;
+    }
+    div.callToAction h1{
+        margin-bottom: 3vh;
+        margin-top: 20vh;
+    }
+    div.callToAction{
+        height: 100vh;
+        margin-bottom: 20vh;
+    }
+    .subtitulos{
+        margin: 3vh 0;
+    }
+    .textospan{
+        margin-bottom: 3vh;
+    }
+    .logoUsuario{
+        width: 2.5em;
+        height: 2.5em;
+        margin-right: 2vw;
+        margin-top: 0;
+    }
+    .contenedorSlogan{
+        height: 40vh;
+    }
+    .tituloCarrousel{
+        width: 90%;
+        margin-top: 50vh;
+    }
+    .portaFoto{
+        width: 100%;
+    }
+    .tituloItineraries h1{
+        text-align: center;
+    }
+    .tituloActivities{
+        font-size: 1.5em;
+        text-align: center;
+        left: 0;
+        top: 2vh;
+    }
+    .tituloSuperp{
+        font-size: 1.5em;
+    }
+    .tituloDiscover{
+        font-size: 2em;
+    }
+    .contenedorActCom{
+        flex-direction: column-reverse;
+    }
+    .contenedorComments, .carrouselActivities, .imageActivity {
+        width: 100%;
+    }
+    .contenedorComments{
+        margin-top: 2vh;
+    }
+    .caption p{
+        width: 40vw;
+    }
+    .comments{
+        height: 30vh;
+    }
+    aside.emoji-picker-react{
+        z-index: 1;
+        bottom: 0;
+        /* left: 30vw; */
+        height: 270px !important;
+        /* width: 300px !important; */
+    }
+    .contenedorLogoOpacity h1{
+        font-size: 1em;
+    }
+    .contenedorParrafos{
+        font-size: 12px;
+        text-align: center;
+    }
+    .inputTexto{
+        width: 80vw;
+    }
+    .descripcionCiudad{
+        display: none;
+    }
+    .galleryContainer{
+        grid-auto-rows: 70px;
+        width: 95%;
+        overflow-x: hidden;
+    }
+    .botonRegreso{
+        background-color: white;
+        font-size: 15px;
+        border: 1px solid var(--primary-color);
+        padding: 1vh 2vw;
+        border-radius: 5px;
+        color: var(--primary-color);
+        margin-left: 1vw;
+    }
+    .pNotFound{
+        text-align: center;
+        font-size: 1em;
+    }
+    .h1404{
+        text-align: center;
+        font-size: 2em;
+    }
+    .itinerarioFlex{
+        flex-direction: column;
+    }
+    .fotoItinerario{
+        width: 80vw;
+        height: 55vh;
+    }
+    .descripcionItinerario{
+        font-size: 1em;
+        text-align: center;
+    }
+    .iconosFlex{
+        margin-bottom: 2vh;
+        justify-content: space-around;
+    }
+    .hashtags{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .tituloItinerario{
+        text-align: center;
+        font-size: 1.5em;
+        width: 80vw;
+    }
+    .tituloItinerarioIcono{
+       flex-direction: column;
+    }
+    .authorName{
+        font-size: 1em;
+    }
+    .autorItinerario{
+        margin-top: 1.5vh;
+        width: 70vw;
+    }
+    .contenedorAgregados{
+        margin-bottom: 2vh;
+    }
+    .contenedorMonedas{
+        flex-direction: column;
+    }
+    .contenedorHeroItinerarios h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .avionItineraries{
+        display: none;
+    }
+    .fraseItinerariosNotFound{
+        font-size: 2em;
+    }
+    .pais{
+        font-size: 1em;
+    }
+    .imageSignUpLogIn{
+        height: 150vh;
+    }
+    .formularios{
+        width: 70vw;
+    }
+    .contenedorInputComment{
+        margin-bottom: 2vh;
+    }
+    .botonForm{
+        width: 40vw;
+    }
+    .contenedorLogo h2{
+        font-size: 3em;
+        text-align: center;
+    }
+    input{
+        width: 83%;
+    }
+    select{
+        width: 88%;
+    }
+    .buttonGoogle{
+        width: 60vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .botonForm{
+        width: 40vw;
+    }
+    .contenedorBotonForm p{
+        text-align: center;
+        font-size: 14px;
+    }
+    .fraseForm{
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+    .fraseFormLogIn{
+        width: 80%;
+        font-size: 15px;
+    }
+    .contenedorLogoUsuario svg{
+        font-size: 15px;
+    }
+    .ventanaUserInfo{
+        min-width: 40vw;
+    }
+    .ventanaUser small{
+        font-size: 10px;
+    }
+    .linksVentana{
+        padding: 1vh 1vw !important;
+
+    }
+    .contenedorLinksLogueado{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .imageAuthorComment{
+        max-width: 7.50vw;
+        min-height: 5vh;
+    }
+
+}
+@media screen and (min-width:630px) and (max-width:992px){
+    .navbar-collapse {
+        flex-grow: 1;
+        align-items: center;
+        position: absolute !important;
+        top: 55px !important;
+        width: 30vw !important;
+        border-radius: 10px;
+        padding: 2vh 0;
+        background-color: var(--primary-color);
+        left: 0px;
+        z-index: 1;
+    }
+    .contenedorUnderConstruction h2{
+        text-align: center;
+    }
+    .tituloDiscover{
+        font-size: 3em;
+    }
+    .contenedorLogoOpacity h1{
+        font-size: 2em;
+    }
+    .contenedorParrafos{
+        text-align: center;
+        font-size: 12px;
+    }
+    a{
+        color: white !important;
+        padding: 1vh 0; 
+    }
+    .titulo{
+        margin-top: 0;
+    }
+    .contenedorSlogan{
+        height: 58vh;
+    }
+    .titulo h1{
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    .frase{
+        font-size: 20px;
+    }
+    .contenedorBoton {
+        margin-top: 4vh;
+    }
+    .pNotFound{
+        text-align: center;
+    }
+    .callToAction h1{
+        margin-top: 9vh;
+    }
+    .itinerarioFlex{
+        flex-direction: column;
+    }
+    .fotoItinerario{
+        width: 80vw;
+        height: 55vh;
+    }
+    .descripcionItinerario{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .iconosFlex{
+        margin-bottom: 2vh;
+        justify-content: space-around;
+    }
+    .hashtags{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 12px;
+    }
+    .tituloItinerario{
+        text-align: center;
+        font-size: 2em;
+        width: 80vw;
+    }
+    .tituloItinerarioIcono{
+       flex-direction: column;
+    }
+    .autorItinerario{
+        margin-top: 1.5vh;
+        width: 70vw;
+        justify-content: center;
+    }
+    .contenedorAgregados{
+        margin-bottom: 2vh;
+    }
+    .contenedorHeroItinerarios h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .avionItineraries{
+        display: none;
+    }
+    input{
+        width: 85%;
+    }
+    select{
+        width: 89%;
+    }
+    .botonForm{
+        width: 30vw;
+    }
+    .contenedorLogo{
+        margin-top: 8vh;
+        margin-bottom: 0;
+    }
+    .formularios{
+        width: 45vw;
+    }
+    .botonForm{
+        width: 40%;
+    }
+    .fraseFormLogIn{
+        width: 60vw;
+    }
+    .buttonGoogle{
+        width: 60vw;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .imageSignUpLogIn{
+        height: 160vh;
+    }
+    aside.emoji-picker-react{
+        z-index: 1;
+        left: 10px;
+    }
+    .linksVentana{
+        padding: 2px 4px !important;
+    }
+    .contenedorLinksLogueado{
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .imageAuthorComment{
+        max-width: 5vw;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1300px){
+    .contenedorSlogan{
+        height: 80vh;
+    }
+    .tituloDiscover{
+        font-size: 4em;
+    }
+    .contenedorTituloDiscover{
+        width: 95%;
+    }
+    .galleryContainer{
+        margin-bottom: 40vh;
+    }
+    .tituloItinerario{
+        font-size: 2.2em;
+    }
+    .iconosFlex{
+        margin-bottom: 2vh;
+    }
+    .contenedorLogo{
+        margin-bottom: 0;
+    }
+    .contenedorAgregados{
+        margin-bottom: 2vh;
+    }
+    input{
+        width: 85%;
+    }
+    .botonForm{
+        width: 45%;
+    }
+    .imageSignUpLogIn{
+        height: 125vh;
+    }
+    .emoji-picker-react{
+        z-index:1 ;
+        left: 30px;
+    }
+    .linksVentana{
+        padding: 1vh 1vw !important;
+    }
+}

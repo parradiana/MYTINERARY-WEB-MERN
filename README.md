@@ -5,7 +5,7 @@ Una app desarrollada en cinco semanas, realizando dailies diarias para poder res
 Para poder ver el trabajo final realizado puedes ingresar a: https://mytinerary-parra.herokuapp.com/
 
 # Comenzando  🚀
-```
+
 # Instalar dependencias para el cliente
 npm install
 
